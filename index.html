@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户列表</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <style>
+        *{padding:0;margin:0;}
+        li{list-style:none;}
+        a.btn-add{display: block;margin: 0 auto;width:200px}
+        div > table.table{width:800px;margin: 20px auto; text-align: center;border-radius: 6px;}
+        button a{display: block; width: 100%; color: #fff;}
+    </style>
+</head>
+<body>
+<div class="box container ">
+    <a href="detail.html" class="btn btn-add btn-info">新增客户</a>
+    <table class="table table-bordered">
+        <thead>
+        <tr class="warning">
+            <td>编号</td>
+            <td>姓名</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody>
+        <!--
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <button class="btn btn-info"><a href="../detail.html">修改</a></button>
+                <button class="btn btn-default" >删除</button>
+            </td>
+        </tr>
+        -->
+        </tbody>
+    </table>
+</div>
+
+<script src="js/ajax.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
